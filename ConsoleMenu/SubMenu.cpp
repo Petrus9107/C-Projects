@@ -55,7 +55,7 @@ void SubMenu::display()
 {   
     gotoxy(m_position_x, m_position_y);
     cout << "[" << m_ch << "] " << m_name;
-    gotoxy(10,23);
+    gotoxy(12,27);
     
     
 }
